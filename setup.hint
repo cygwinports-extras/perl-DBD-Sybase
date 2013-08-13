@@ -1,4 +1,0 @@
-category: Perl Database
-requires: libct4 libssp0 perl perl-DBI
-sdesc: "Sybase driver for the Perl DBI framework"
-ldesc: "Sybase driver for the Perl DBI framework"

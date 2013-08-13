@@ -1,0 +1,11 @@
+--- origsrc/DBD-Sybase-1.15/Makefile.PL	2012-10-26 14:11:54.000000000 -0500
++++ src/DBD-Sybase-1.15/Makefile.PL	2013-08-13 18:15:05.256333900 -0500
+@@ -140,7 +140,7 @@ sub configure {
+ 	my $libfound = 0;
+ 	my $libsub   = '';
+   my @libdir = ( 'lib', 'lib64' );
+-  if ($^O =~ /win/i) {
++  if ($^O =~ /mswin/i) {
+     @libdir = ( 'dll' );
+   }
+ 	foreach $libdir ( @libdir ) {

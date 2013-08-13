@@ -1,0 +1,18 @@
+CPAN_AUTHOR=mewp
+inherit perl
+
+NAME="perl-DBD-Sybase"
+VERSION=1.15
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Sybase driver for the Perl DBI framework"
+DESCRIPTION="Sybase driver for the Perl DBI framework"
+
+PATCH_URI="1.15-cygwin.patch"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	export SYBASE=/usr
+	yes '' | perl_compile
+}

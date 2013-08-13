@@ -1,5 +1,0 @@
-CPAN_AUTHOR=mewp
-inherit perl
-
-
-export SYBASE=/usr
