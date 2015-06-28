@@ -3,7 +3,7 @@ inherit perl
 
 NAME="perl-DBD-Sybase"
 VERSION=1.15
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Sybase driver for the Perl DBI framework"
 DESCRIPTION="Sybase driver for the Perl DBI framework"
